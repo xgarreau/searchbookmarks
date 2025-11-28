@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "Search Bookmarks",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Quickly search all your bookmarks",
+    "description": "Extension description"
+  },
+  "searchPlaceholder": {
+    "message": "Search in your bookmarks...",
+    "description": "Search input placeholder"
+  },
+  "noResults": {
+    "message": "No bookmarks found",
+    "description": "No results message"
+  },
+  "totalBookmarks": {
+    "message": "$COUNT$ bookmark(s) total",
+    "description": "Total bookmarks count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "resultsFound": {
+    "message": "$COUNT$ result(s) found",
+    "description": "Results found count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "untitled": {
+    "message": "Untitled",
+    "description": "Default title for bookmarks without title"
+  }
+}

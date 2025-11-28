@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Bookmarks</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        autofocus
+      >
+      <div id="searchCount" class="search-count"></div>
+    </div>
+    <div id="results" class="results"></div>
+    <div id="noResults" class="no-results" style="display: none;"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
